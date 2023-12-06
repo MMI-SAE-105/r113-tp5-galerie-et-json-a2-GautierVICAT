@@ -39,8 +39,8 @@
     max-width: 100%;
     height: auto;
 }
-.mignature{
-    border: 2px black solid ;
+.miniature{
+    border: 2px yellow solid ;
     border-radius: 20%;
 }
 .BtnLink{
@@ -55,4 +55,34 @@
 body{
     background-color: rgb(191, 131, 246);
     color: rgb(254, 254, 203);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.item{
+    list-style: none;
+}
+.item{
+    color: rgb(254, 254, 203);
+    display: block;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(216, 255, 137);
+    padding: 5px;
+    background-color: blueviolet;
+}
+.Listitem {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+    padding: 10px;
+}
+.lien{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
