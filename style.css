@@ -39,3 +39,7 @@
     max-width: 100%;
     height: auto;
 }
+.mignature{
+    border: 2px black solid ;
+    border-radius: 20%;
+}
