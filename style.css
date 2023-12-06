@@ -12,3 +12,21 @@
     align-items: center;
     justify-content: center;
 }
+.overlay::after{
+    content: "X";
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    text-align: center;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px white solid;
+    border-radius: 50%;
+    display: grid;
+    align-content: center;
+}
