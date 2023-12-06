@@ -49,4 +49,10 @@
     border: 5px yellow solid;
     border-radius: 20%;
     padding: 5px;
+    text-decoration: none;
+    color: yellow;
+}
+body{
+    background-color: rgb(191, 131, 246);
+    color: rgb(254, 254, 203);
 }
